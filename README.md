@@ -35,7 +35,7 @@ This project is ideal for **students and hobbyists** to understand analog measur
 ### 🧠 Working Principle
 The circuit works using the **voltage divider rule**:
 
-![Equation 1](https://latex.codecogs.com/png.image?\dpi{120}\bg{black}\color{white}V_{out}=V_{in}\times\frac{R_{unknown}}{R_{ref}+R_{unknown}})
+![Equation 1](https://latex.codecogs.com/png.image?\dpi{120}\bg{transparent}\color{white}V_{out}=V_{in}\times\frac{R_{unknown}}{R_{ref}+R_{unknown}})
 
 
 By measuring `Vout` using the Arduino’s ADC, we can calculate `R_unknown`.
@@ -63,7 +63,7 @@ The node between the two resistors connects to **A0**, where Arduino reads the v
 
 ## 🧮 Calculation Formula
 
-![Equation 2](https://latex.codecogs.com/png.image?\dpi{120}\bg{black}\color{white}R_{unknown}=R_{ref}\times\left(\frac{V_{out}}{V_{in}-V_{out}}\right))
+![Equation 2](https://latex.codecogs.com/png.image?\dpi{120}\bg{transparent}\color{white}R_{unknown}=R_{ref}\times\left(\frac{V_{out}}{V_{in}-V_{out}}\right))
 
 - `Vout` is measured using `analogRead(A0)`
 - `Vin` = 5V (Arduino supply)
