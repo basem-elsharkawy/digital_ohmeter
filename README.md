@@ -109,6 +109,6 @@ This project is open-source under the **MIT License** — feel free to use and m
 ## ✨ Author
 
 **Basem Elsharkawy**  
-Embedded Systems & Arduino Developer  
+Embedded Systems Developer  
 [Mansoura University, Egypt]  
 GitHub: [@basem-elsharkawy](https://github.com/basem-elsharkawy)
