@@ -35,9 +35,8 @@ This project is ideal for **students and hobbyists** to understand analog measur
 ### 🧠 Working Principle
 The circuit works using the **voltage divider rule**:
 
-\[
-V_{out} = V_{in} \times \frac{R_{unknown}}{R_{ref} + R_{unknown}}
-\]
+![Equation](https://latex.codecogs.com/png.image?\dpi{120}V_{out}=V_{in}\times\frac{R_{unknown}}{R_{ref}+R_{unknown}})
+
 
 By measuring `Vout` using the Arduino’s ADC, we can calculate `R_unknown`.
 
