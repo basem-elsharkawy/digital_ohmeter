@@ -63,9 +63,7 @@ The node between the two resistors connects to **A0**, where Arduino reads the v
 
 ## 🧮 Calculation Formula
 
-\[
-R_{unknown} = R_{ref} \times \left(\frac{V_{out}}{V_{in} - V_{out}}\right)
-\]
+![Equation 2](https://latex.codecogs.com/png.image?\dpi{120}R_{unknown}=R_{ref}\times\left(\frac{V_{out}}{V_{in}-V_{out}}\right))
 
 - `Vout` is measured using `analogRead(A0)`
 - `Vin` = 5V (Arduino supply)
