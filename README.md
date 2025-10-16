@@ -86,6 +86,32 @@ R_{unknown} = R_{ref} \times \left(\frac{V_{out}}{V_{in} - V_{out}}\right)
 
 ---
 
-## 🖥️ Example Output
+## 🪛 Calibration Tips
 
-### On Serial Monitor:
+- Use a **precise reference resistor** for better accuracy.
+- Ensure **stable power supply** (5V regulated).
+- Keep **short jumper wires** to reduce noise.
+- You can modify code to display resistance in **Ω or kΩ automatically**.
+
+---
+
+## 🧰 Future Improvements
+
+- Auto-range detection (for wider resistance values)
+- Add buzzer or LEDs for range indication
+- Add EEPROM storage for calibration data
+
+---
+
+## 📜 License
+
+This project is open-source under the **MIT License** — feel free to use and modify it.
+
+---
+
+## ✨ Author
+
+**Basem Elsharkawy**  
+Embedded Systems & Arduino Developer  
+[Mansoura University, Egypt]  
+GitHub: [@basem-elsharkawy](https://github.com/basem-elsharkawy)
